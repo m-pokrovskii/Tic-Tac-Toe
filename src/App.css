@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+.TicTacToe {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  gap: 0.3rem;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  margin-bottom: 1.5rem;
+  background-color: black;
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+.ttt-button {
+    width: 10rem;
+    height: 10rem;
+    border: 0;
+    background-color: #fff;
+    font-size: 2.25rem;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-10px); }
+  40%, 80% { transform: translateX(10px); }
+}
+
+.shakeIt {
+  animation: shake 0.5s ease-in-out forwards;
+}
+
+.ttt-button:hover {
+  background: #eee;
+}
+
+.ttt-button.-won {
+  background: orange;
+}
+
+.isX  {
+  color: #000;
+}
+
+.isO {
+  color: #3A6EA5;
+}
+
+.currentPlayerNotification {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.newGameButton {
+  background: green;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 10px rgba(0, 128, 0, 0.3);
+}
