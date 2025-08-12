@@ -1,12 +1,76 @@
-# React + Vite
+# Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Tic Tac Toe game built with React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+This project implements a classic Tic Tac Toe game with React hooks. Players alternate turns placing X and O on a 3x3 grid. The game detects a winner or a tie and highlights the winning combination.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## Screenshots
+![Tic Tac Toe](/screeenshot.png)
+
+---
+
+## Features
+
+- 3x3 Tic Tac Toe board  
+- Turn-based gameplay between Player X and Player O  
+- Winner detection with highlighted winning squares  
+- Tie detection  
+- New game reset functionality  
+- Smooth UI transitions and animations  
+- Mobile responcive
+
+---
+
+## Technologies Used
+
+- React (functional components with hooks)  
+- CSS for styling and animations  
+
+---
+
+## How to Play
+
+- Player X starts first.  
+- Click on any empty square to place your mark (X or O).  
+- The game automatically switches turns.  
+- If a player aligns three marks horizontally, vertically, or diagonally, that player wins, and the winning combination is highlighted.  
+- If all squares are filled without a winner, the game ends in a tie.  
+- Press the "New Game" button to restart.  
+
+---
+
+## Setup & Run Locally
+
+1. Clone the repository:
+    ```bash
+    git clone git@github.com:m-pokrovskii/Tic-Tac-Toe.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd tic-tac-toe
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+5. Open your browser and go to:
+    ```
+    http://localhost:5173/
+    ```
+
+---
+
+## Future Improvements
+
+- Add AI opponent  
+- Add player score tracking  
+- Add sound effects and improved animations  
