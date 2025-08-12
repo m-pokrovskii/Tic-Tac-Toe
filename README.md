@@ -10,7 +10,7 @@ This project implements a classic Tic Tac Toe game with React hooks. Players alt
 
 ---
 ![Tic Tac Toe](public/screenshot.png)
----
+
 
 ## Features
 

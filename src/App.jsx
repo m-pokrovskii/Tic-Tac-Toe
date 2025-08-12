@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="TicTacToe">
       <h1>Tic Tac Toe</h1>
-      <div class="currentPlayerNotification">
+      <div className="currentPlayerNotification">
         {winner ? (
           <div className='shakeIt'>Player {winner} Wins!</div>
         ) : gameOver ? (
@@ -70,7 +70,6 @@ function App() {
       </div>
       <div className='board'>
         {board.map((square, index) => {
-          console.log({combinationWin, index});
           const isWinning = combinationWin && combinationWin.includes(index);
           const delay = isWinning ? `${(combinationWin.indexOf(index)) * 100}ms` : '0ms';          
           return (
@@ -90,6 +89,7 @@ function App() {
       </div>
       <div>
         <button 
+          onClick = {newGame}
           className={`${(winner || gameOver) ? "shakeIt" : ""} newGameButton`}>
             New Game
         </button>
