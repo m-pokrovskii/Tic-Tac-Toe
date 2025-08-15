@@ -11,6 +11,7 @@ This project implements a classic Tic Tac Toe game with React hooks. Players alt
 ---
 ## Demo
 ![Tic Tac Toe](public/screenshot.png)
+
 [Live Demo](https://tic-tac-toe-green-xi.vercel.app/)
 
 
