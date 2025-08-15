@@ -9,7 +9,9 @@ A simple and interactive Tic Tac Toe game built with React.
 This project implements a classic Tic Tac Toe game with React hooks. Players alternate turns placing X and O on a 3x3 grid. The game detects a winner or a tie and highlights the winning combination.
 
 ---
+## Demo
 ![Tic Tac Toe](public/screenshot.png)
+[Live Demo](https://tic-tac-toe-green-xi.vercel.app/)
 
 
 ## Features
